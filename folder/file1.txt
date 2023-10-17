@@ -1,2 +1,3 @@
 Hello World
 hgfdhfghgdf
+* * * * * /Users/fadi/Documents/Fadi/Koleya/Term\ 7/OS/labs/lab2/backup-cron.sh /Users/fadi/Documents/Fadi/Koleya/Term\ 7/OS/labs/lab2/folder /Users/fadi/Documents/Fadi/Koleya/Term\ 7/OS/labs/lab2/backup 5

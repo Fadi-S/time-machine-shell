@@ -26,6 +26,23 @@ The script will create a folder in the backup folder with the name of the folder
 ## How to stop
 To stop the script, press Ctrl/Cmd+C in the terminal window where the script is running.
 
+## Using a cronjob to run the script
+To run the script using a cronjob, run the following command in the terminal:
+```shell
+crontab -e
+```
+Then add the following line to the end of the file:
+```shell
+* * * * * /path/to/cron/backup.sh {source} {destination} {max_backup_folders}
+```
+Then save the file and exit.
+this will run the script every minute. You can change the interval to whatever you want.
+- For example If you want to run this backup every 3rd Friday
+  of the month at 12:31 am, you would use the following cronjob:
+```
+  31 0 15-21 * 5 /path/to/cron/backup.sh {source} {destination} {max_backup_folders}
+```
+
 ## License
 This project is licensed under the MIT License
 
