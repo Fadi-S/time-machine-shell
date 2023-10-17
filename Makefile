@@ -1,5 +1,5 @@
 start_backup: backup folder backup.sh
-	./backup.sh folder backup 4 4
+	./backup.sh folder backup 60 10
 
 backup:
 	mkdir -p backup
